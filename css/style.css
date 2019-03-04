@@ -1,8 +1,15 @@
 /* line 1, ../sass/style.scss */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: arial;
+}
+
+/* line 6, ../sass/style.scss */
 .container {
   width: 100%;
 }
-/* line 3, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 .container .cols {
   background-color: #dbdbdb;
   width: 200px;
@@ -10,7 +17,10 @@
   margin: 15px;
   float: left;
 }
-/* line 9, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 .container .cols img {
   display: block;
+  height: 100%;
+  width: 100%;
+  max-width: 200px;
 }

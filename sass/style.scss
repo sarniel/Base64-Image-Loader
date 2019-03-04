@@ -1,3 +1,8 @@
+body{
+	background-color: #000;
+	color: #fff;
+	font-family: arial;
+}
 .container{
 	width: 100%;
 	.cols{
@@ -8,6 +13,9 @@
 		float: left;
 		img{
 			display: block;
+			height: 100%;
+			width: 100%;
+			max-width: 200px;
 		}
 	}
 }
