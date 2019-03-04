@@ -1,0 +1,13 @@
+.container{
+	width: 100%;
+	.cols{
+		background-color: #dbdbdb;
+		width: 200px;
+		min-height: 200px;
+		margin: 15px;
+		float: left;
+		img{
+			display: block;
+		}
+	}
+}

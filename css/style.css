@@ -1,0 +1,16 @@
+/* line 1, ../sass/style.scss */
+.container {
+  width: 100%;
+}
+/* line 3, ../sass/style.scss */
+.container .cols {
+  background-color: #dbdbdb;
+  width: 200px;
+  min-height: 200px;
+  margin: 15px;
+  float: left;
+}
+/* line 9, ../sass/style.scss */
+.container .cols img {
+  display: block;
+}
